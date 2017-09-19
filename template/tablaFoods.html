@@ -1,0 +1,8 @@
+<div>
+<p>buscar:  <input type="text" ng-model="buscarBox"></p>
+	<ul>
+	<li ng-repeat="food in foods | filter: buscarBox">
+		{{food}}
+	</li>
+	</ul>
+</div>
